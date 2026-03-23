@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* 
+    MODELO DE ESTILIZAÇÃO:
+
+    1- layout/estrutura --> ex: flex, block, relative...
+    2- tamanho/espaçamento --> ex: margin, padding, min-h, min-w...
+    3- aparencia --> ex: border, color, background, text...
+*/
+
+html, body {
+    @apply min-h-screen min-w-screen overflow-x-hidden
+}
+
+#root {
+    @apply min-h-dvh min-w-full 
+}
