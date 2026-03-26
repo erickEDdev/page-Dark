@@ -9,9 +9,9 @@ const Header = () => {
         />
       </div>
       <div className="flex items-center gap-x-7">
-        <span>features</span>
-        <span>team</span>
-        <span>sign in</span>
+        <a href="#">features</a>
+        <a href="#">team</a>
+        <a href="#">sign in</a>
       </div>
     </header>
   );

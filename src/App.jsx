@@ -1,5 +1,5 @@
-import End from "./components/End";
-import Start from "./components/Start";
+import End from "./sections/End";
+import Start from "./sections/Start";
 
 function App() {
   return (
