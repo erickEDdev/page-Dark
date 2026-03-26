@@ -16,13 +16,9 @@
 }
 
 html, body {
-    @apply min-h-screen min-w-screen overflow-x-hidden
+    @apply min-h-screen min-w-screen overflow-x-hidden bg-[#181f2b]
 }
 
 #root {
     @apply min-h-dvh min-w-full 
 }
-
-
-
-/* font-family: "Raleway", sans-serif; */
