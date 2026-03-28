@@ -1,8 +1,8 @@
-import CaixaInfos from "../components/CaixaInfos";
+import CaixaInfos from "../components/CaixaInfo";
 
 const CaixasInfos = () => {
   return (
-    <div className="z-4 flex flex-col gap-y-20">
+    <div className="z-4 flex flex-col gap-y-20 lg:grid lg:grid-cols-2 auto-rows-auto lg:gap-y-40 lg:gap-x-40">
       <CaixaInfos
         urlImage={"/images/icon-access-anywhere.svg"}
         descriptionImg={"computador imagem"}
@@ -32,7 +32,7 @@ const CaixasInfos = () => {
         descriptionImg={"arquivo files"}
         title={"Store any type of file"}
         textP={
-          "Whether you're sharing holidays Photos or workdocuments, FyIO has you covered allowing for allfile types to be securely stored and shared."
+          "Whether you're sharing holidays Photos or work documents, FyIO has you covered allowing for allfile types to be securely stored and shared."
         }
       />
     </div>

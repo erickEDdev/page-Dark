@@ -1,4 +1,4 @@
-import { useId } from "react";
+import { useId, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 const CaixaInfos = ({ urlImage, descriptionImg, title, textP }) => {
@@ -14,12 +14,12 @@ const CaixaInfos = ({ urlImage, descriptionImg, title, textP }) => {
         <img
           src={urlImage}
           alt={descriptionImg}
-          className="w-15 h-auto object-cover select-none"
+          className="w-15 h-auto object-cover select-none lg:h-25 lg:w-25 lg:object-none"
         />
       )}
       <div className="space-y-2.5">
         <h1 className="text-2xl text-semibold text-white">{title}</h1>
-        <p className="text-center m-auto text-gray-300">{textP}</p>
+        <p className="text-center m-auto text-gray-300 lg:w-110">{textP}</p>
       </div>
     </div>
   );
