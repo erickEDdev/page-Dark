@@ -8,9 +8,9 @@ import FloatCx from "../components/Float";
 
 const Start = () => {
   return (
-    <div className="flex flex-col relative gap-y-100  min-h-auto bg-[#1b2330] text-white font-body">
+    <div className="flex flex-col relative gap-y-100 lg:gap-y-255  min-h-auto bg-[#1b2330] text-white font-body">
       <Header />
-      <main className="relative flex flex-col gap-y-100 justify-start items-center min-h-auto w-full px-5 pb-90 bg-[#181f2b]">
+      <main className="relative flex flex-col gap-y-100 justify-start items-center min-h-auto w-full px-5 pb-90 bg-[#181f2b] lg:gap-y-0 bg-red-500!">
         <ShowImages />
         <FilesInfos />
         <div className="space-y-40">
