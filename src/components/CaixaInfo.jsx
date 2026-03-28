@@ -1,4 +1,4 @@
-import { useId, useRef } from "react";
+import { useId } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 const CaixaInfos = ({ urlImage, descriptionImg, title, textP }) => {

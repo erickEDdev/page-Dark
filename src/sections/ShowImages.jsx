@@ -5,14 +5,14 @@ const ShowImages = () => {
 
   return (
     <>
-      <div className="absolute z-1 -top-92 w-85 select-none lg:-top-245 lg:h-auto lg:w-130">
+      <div className="absolute z-1 -top-50 w-85 select-none max-lg:landscape:left-85">
         <img
           src="/images/illustration-intro.png"
           alt="arquivos do computador"
-          className="w-full lg:h-full"
+          className="w-full"
         />
       </div>
-      <div className="absolute -top-40 max-lg:landscape:-top-60 left-0 right-0 w-full select-none lg:-top-118">
+      <div className="w-full">
         <img
           src={isMobile ? "/images/bg-curvy-mobile.svg" : "/images/bg-curvy-desktop.svg"}
           alt="montanha cinza"
