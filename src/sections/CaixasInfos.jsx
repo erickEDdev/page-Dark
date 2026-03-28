@@ -2,7 +2,7 @@ import CaixaInfos from "../components/CaixaInfo";
 
 const CaixasInfos = () => {
   return (
-    <div className="z-4 flex flex-col gap-y-20 auto-rows-auto">
+    <div className="z-4 flex flex-col gap-y-20 lg:grid lg:grid-cols-[repeat(2,minmax(100px,auto))] lg:auto-rows-auto lg:gap-y-35 lg:gap-x-50 lg:justify-center">
       <CaixaInfos
         urlImage={"/images/icon-access-anywhere.svg"}
         descriptionImg={"computador imagem"}

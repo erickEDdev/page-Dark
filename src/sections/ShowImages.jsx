@@ -5,7 +5,7 @@ const ShowImages = () => {
 
   return (
     <>
-      <div className="absolute z-1 -top-50 w-85 select-none max-lg:landscape:left-85">
+      <div className="absolute z-1 -top-50 w-85 select-none max-lg:landscape:left-85 lg:-top-140 lg:w-150">
         <img
           src="/images/illustration-intro.png"
           alt="arquivos do computador"

@@ -8,11 +8,11 @@ import FloatCx from "../components/Float";
 
 const Start = () => {
   return (
-    <div className="flex flex-col relative gap-y-65 min-h-auto bg-[#1b2330] text-white font-body">
+    <div className="flex flex-col relative gap-y-65 min-h-auto bg-[#1b2330] text-white font-body lg:gap-y-140">
       <Header />
       <main className="relative flex flex-col justify-center items-center min-h-auto w-full">
         <ShowImages />
-        <div className="space-y-40 pb-90 px-5 bg-[#181f2b]">
+        <div className="space-y-40 pb-90 px-5 bg-[#181f2b] lg:w-full lg:pt-0 lg:flex lg:flex-col lg:gap-y-0 lg:[&>*:nth-child(n+3)]:mt-40 lg:space-y-0">
           <FilesInfos />
           <CaixasInfos />
           <Products />
