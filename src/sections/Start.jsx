@@ -20,7 +20,7 @@ const Start = () => {
         </div>
       </main>
 
-      <div className="absolute w-[87%] h-fit p-7 -bottom-50 left-[50%] transform-[translate(-50%)] bg-[#1b2330] rounded-[10px]">
+      <div className="absolute w-[87%] h-fit p-7 -bottom-50 left-[50%] transform-[translate(-50%)] bg-[#1b2330] rounded-[10px] lg:w-[65%] lg:px-25 lg:py-12">
         <FloatCx />
       </div>
     </div>
@@ -28,9 +28,3 @@ const Start = () => {
 };
 
 export default Start;
-
-/*
-  o que fazer para arrumar a imagem:
-  colocar a montanha no top 
-  e a do computador top negativo para ultrapassar o componente
-*/

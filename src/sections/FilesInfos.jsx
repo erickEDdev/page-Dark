@@ -10,7 +10,7 @@ const FilesInfos = () => {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <button className="flex items-center justify-center w-[70%] m-auto py-3.5 rounded-[50px] font-bold bg-[#43b5d0] lg:w-full lg:max-w-65">
+        <button className="flex items-center justify-center w-[70%] m-auto py-3.5 rounded-[50px] font-bold bg-[#43b5d0] hover:bg-[#8cdae4] cursor-pointer lg:w-full lg:max-w-65">
           Get Started
         </button>
       </div>

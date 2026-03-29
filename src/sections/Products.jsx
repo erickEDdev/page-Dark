@@ -19,7 +19,7 @@ const Products = () => {
               <p className="text-gray-300 lg:max-w-160">
                 Securely share files and folders with friends,family and colleagues for live collaboration. No email attachments required.
               </p>
-              <a href="#" className="flex gap-x-2.5 text-[16px] text-[#63ddd8] border-b w-fit pb-1.5">
+              <a href="#" className="flex gap-x-2.5 text-[16px] text-[#63ddd8] border-b w-fit pb-1.5 hover:text-white cursor-pointer">
                 <span>See how Fylo works</span>
                 <div><FontAwesomeIcon icon={faCircleArrowRight} /></div>
               </a>

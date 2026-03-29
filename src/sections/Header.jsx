@@ -8,10 +8,10 @@ const Header = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="flex items-center gap-x-7 lg:text-gray-300">
-        <a href="#">features</a>
-        <a href="#">team</a>
-        <a href="#">sign in</a>
+      <div className="flex items-center gap-x-7 lg:text-gray-300 font-medium">
+        <a href="#" className="hover:text-white hover:underline underline-offset-1">features</a>
+        <a href="#" className="hover:text-white hover:underline underline-offset-1">team</a>
+        <a href="#" className="hover:text-white hover:underline underline-offset-1">sign in</a>
       </div>
     </header>
   );

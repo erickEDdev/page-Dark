@@ -2,7 +2,14 @@ import Perfil from "../components/Perfil";
 
 const Perfils = () => {
   return (
-    <div className="flex flex-col justify-start items-center gap-y-10 w-full lg:flex-row lg:justify-center lg:flex-wrap lg:gap-x-12 lg:gap-y-12 lg:min-h-95">
+    <div className="flex flex-col justify-start items-center gap-y-10  lg:flex-row lg:justify-center lg:flex-wrap lg:gap-x-12 lg:gap-y-12 lg:min-h-95 relative w-fit! m-auto">
+      <div className="absolute -top-6.5 left-2 max-lg:landscape:left-65 lg:-left-2.5 lg:top-7">
+        <img
+          src="/images/bg-quotes.png"
+          alt="aspas duplas imagem"
+          className="relative w-9 lg:w-15"
+        />
+      </div>
       <Perfil
         paragraf={
           "Fylo has improved team Productivity by an order Of magnitude. Since making the switch Our team has become a well-oiled collaboration machine."
@@ -11,6 +18,7 @@ const Perfils = () => {
         imgDescription={"homem adulto com blusa vermelha"}
         title={"satish patel"}
         subTitle={"Founder & CEO, Huddle"}
+        first={true}
       />
       <Perfil
         paragraf={

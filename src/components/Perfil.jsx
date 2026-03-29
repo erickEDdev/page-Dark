@@ -1,7 +1,7 @@
-const Perfil = ({ paragraf, title, subTitle, urlImg, imgDescription }) => {
+const Perfil = ({ paragraf, title, subTitle, urlImg, imgDescription, first }) => {
 
     return (
-        <div className="w-83 h-fit p-7 bg-[#21293c] rounded-[5px] text-left lg:min-w-100 lg:p-12 lg:py-9">
+        <div className="w-83 h-fit p-7 bg-[#21293c] rounded-[5px] text-left lg:min-w-100 lg:p-12 lg:py-9 relative z-10">
             <div className="space-y-6.5 lg:h-full lg:w-full lg:flex lg:flex-col lg:space-y-0 lg:gap-y-8">
                 <p className="text-[14px] text-gray-300 lg:text-[16px]">
                     {paragraf}
