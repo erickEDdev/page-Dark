@@ -8,18 +8,18 @@ const CaixaInfos = ({ urlImage, descriptionImg, title, textP }) => {
   return (
     <div
       id={ID}
-      className="flex flex-col items-center justify-center gap-y-10 text-center z-1"
+      className="flex flex-col items-center justify-center gap-y-10 text-center z-1 lg:w-full lg:h-full"
     >
       {urlImage && (
         <img
           src={urlImage}
           alt={descriptionImg}
-          className="w-15 h-auto object-cover select-none lg:h-25 lg:w-25 lg:object-none"
+          className="w-15 h-auto object-cover select-none lg:h-25 lg:w-25 max-w-full lg:object-none"
         />
       )}
       <div className="space-y-2.5">
         <h1 className="text-2xl text-semibold text-white">{title}</h1>
-        <p className="text-center m-auto text-gray-300 lg:w-110">{textP}</p>
+        <p className="text-center m-auto text-gray-300 ">{textP}</p>
       </div>
     </div>
   );

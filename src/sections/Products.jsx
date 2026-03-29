@@ -7,9 +7,9 @@ const Products = () => {
             <img
               src="/images/illustration-stay-productive.png"
               alt="três pessoas produzindo"
-              className="w-[80%] h-auto object-cover select-none lg:max-w-[50%]"
+              className="w-[80%] h-auto object-cover select-none lg:max-w-[45%]"
             />
-            <div className="flex flex-col gap-y-5 p-3 lg:max-w-[50%]">
+            <div className="flex flex-col gap-y-5 p-3 lg:max-w-[55%]">
               <h1 className="text-[20px] font-semibold text-white max-w-120 lg:text-4xl lg:max-w-100">
                 Stay productive, wherever you are
               </h1>
