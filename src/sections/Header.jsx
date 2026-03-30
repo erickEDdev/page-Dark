@@ -3,7 +3,7 @@ const Header = () => {
     <header className="flex items-center justify-between p-7 bg-transparent font-header capitalize lg:p-[60px_100px]">
       <div className="w-21 h-auto lg:w-40">
         <img
-          src="/images/logo.svg"
+          src="/page-Dark/images/logo.svg"
           alt="logo da marca"
           className="h-full w-full"
         />
