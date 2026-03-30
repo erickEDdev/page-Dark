@@ -7,7 +7,7 @@ const ShowImages = () => {
     <>
       <div className="absolute z-1 -top-50 w-85 select-none max-lg:landscape:left-85 lg:-top-140 lg:w-150">
         <img
-          src="/page-Dark/images/illustration-intro.png"
+          src="/page-Dark/images/illustration-intro.png:1"
           alt="arquivos do computador"
           className="w-full"
         />
