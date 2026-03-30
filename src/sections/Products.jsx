@@ -5,7 +5,7 @@ const Products = () => {
     return (
         <div className="flex flex-col items-center justify-center gap-y-13 text-left lg:flex-row lg:gap-x-13">
             <img
-              src="/images/illustration-stay-productive.png"
+              src="/page-Darl/images/illustration-stay-productive.png"
               alt="três pessoas produzindo"
               className="w-[80%] h-auto object-cover select-none lg:max-w-[45%]"
             />

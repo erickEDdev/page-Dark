@@ -4,7 +4,7 @@ const CaixasInfos = () => {
   return (
     <div className="z-4 flex flex-col gap-y-20 lg:grid lg:grid-cols-[repeat(2,minmax(50px,440px))] lg:auto-rows-auto lg:gap-y-35 lg:gap-x-50 lg:justify-center">
       <CaixaInfos
-        urlImage={"/images/icon-access-anywhere.svg"}
+        urlImage={"/page-Dark/images/icon-access-anywhere.svg"}
         descriptionImg={"computador imagem"}
         title={"Access your files, anywhere"}
         textP={
@@ -12,7 +12,7 @@ const CaixasInfos = () => {
         }
       />
       <CaixaInfos
-        urlImage={"/images/icon-security.svg"}
+        urlImage={"/page-Dark/images/icon-security.svg"}
         title={"Security you can trust"}
         textP={
           "2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
@@ -20,7 +20,7 @@ const CaixasInfos = () => {
         descriptionImg={"icone de um escudo de segurança"}
       />
       <CaixaInfos
-        urlImage={"/images/icon-collaboration.svg"}
+        urlImage={"/page-Dark/images/icon-collaboration.svg"}
         title={"Real-time collaboration"}
         textP={
           "Securely share files and folders with friends,family and colleagues for live collaboration. No email attachments required."
@@ -28,7 +28,7 @@ const CaixasInfos = () => {
         descriptionImg={"relógio"}
       />
       <CaixaInfos
-        urlImage={"/images/icon-any-file.svg"}
+        urlImage={"/page-Dark/images/icon-any-file.svg"}
         descriptionImg={"arquivo files"}
         title={"Store any type of file"}
         textP={
