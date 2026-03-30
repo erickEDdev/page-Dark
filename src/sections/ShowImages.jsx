@@ -14,7 +14,7 @@ const ShowImages = () => {
       </div>
       <div className="w-full">
         <img
-          src={isMobile ? "/images/bg-curvy-mobile.svg" : "/images/bg-curvy-desktop.svg"}
+          src={isMobile ? "/page-Dark/images/bg-curvy-mobile.svg" : "/images/bg-curvy-desktop.svg"}
           alt="montanha cinza"
           className="w-full"
         />
